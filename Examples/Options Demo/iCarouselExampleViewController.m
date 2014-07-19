@@ -100,9 +100,9 @@
     [super viewDidLoad];
     
     //configure carousel
-    _carousel.type = iCarouselTypeCoverFlow2;
+    _carousel.type = iCarouselTypeCylinder;
     [self updateSliders];
-    _navItem.title = @"CoverFlow2";
+    _navItem.title = @"iCarouselTypeCylinder";
 }
 
 - (void)viewDidUnload

@@ -27,7 +27,7 @@
     //set up data
     //this is an array of arrays
     self.items = [NSMutableArray array];
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < 20; i++)
     {
         NSMutableArray *subitems = [NSMutableArray array];
         for (int j = 0; j < 20; j++)
@@ -57,7 +57,7 @@
     [super viewDidLoad];
     
     //configure outer carousel
-    _carousel.type = iCarouselTypeLinear;
+    _carousel.type = iCarouselTypeWheel;
     _carousel.centerItemWhenSelected = NO;
 }
 
